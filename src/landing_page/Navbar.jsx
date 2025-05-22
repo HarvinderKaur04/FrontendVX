@@ -1,10 +1,10 @@
-
+import {Link} from 'react-router-dom';
 function Navbar() {
     return (
         
             <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
                 <div class="container pt-2 pb-4">
-                    <a class="navbar-brand" href="#"><img src="media/images/logo2.jpeg" alt="Home" srcset="" style={{ width:"45%" }} /></a>
+                    <Link class="navbar-brand" to="/"><img src="media/images/logo2.jpeg" alt="Home" srcset="" style={{ width:"45%" }} /></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -12,22 +12,22 @@ function Navbar() {
                         <form class="d-flex" >
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item ">
-                                <a class="nav-link active" aria-current="page" href="#">Signup</a>
+                                <Link class="nav-link active" aria-current="page" to="/signup">Signup</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">About</a>
+                                <Link class="nav-link active" to="/about">About</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Product</a>
+                                <Link class="nav-link active" to="/product">Product</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Pricing</a>
+                                <Link class="nav-link active" to="/pricing">Pricing</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Support</a>
+                                <Link class="nav-link active" to="/support">Support</Link>
                             </li>
                                <li class="nav-item">
-                                <a class="nav-link active" href="#"><i class="fa-solid fa-bars"></i></a>
+                                <Link class="nav-link active" to="#"><i class="fa-solid fa-bars"></i></Link>
                             </li>
 
 

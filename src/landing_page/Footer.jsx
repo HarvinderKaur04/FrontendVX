@@ -5,7 +5,7 @@ function Footer() {
             <div className="container">
                 <div className="row mt-5">
                     <div className="col mx-5 text-secondary">
-                        <img src="media/images/logo2.jpeg" alt="" srcset="" style={{ width: "80%" }} />
+                       <a href="/"> <img src="media/images/logo2.jpeg" alt=""  srcset="" style={{ width: "80%" }} /></a>
                         <p className="mt-4 fs-5">© 2010 - 2025, VyaparaX Broking Ltd.<br></br>
                             All rights reserved.</p>
                         <h2></h2>

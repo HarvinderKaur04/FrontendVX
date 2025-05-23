@@ -1,7 +1,7 @@
 function Team() {
     return (
         <div className="container">
-            <div className="row p-5 mb-5">
+            <div className="row p-5">
                 <div className="col team">
                     <img src="media/images/nithinKamath.jpg" style={{ width: "90%" }} className="rounded-circle " alt="" srcset="" />
                     <h3 className="mt-5">Nithin Kamath</h3>
@@ -18,12 +18,8 @@ function Team() {
                                 Nikhil is an astute and <br></br>experienced investor,<br></br> and he heads financial<br></br> planning at Zerodha. <br></br>An avid reader, <br></br>he always appreciates<br></br> a good game of chess.
                             </div>
                         </div>
-
-
-
-                    </div>
-
-                </div>
+                   </div>
+              </div>
                 <div className="col team">
                     <img src="media/images/nithinKamath.jpg" style={{ width: "90%" }} className="rounded-circle " alt="" srcset="" />
                     <h3 className="mt-5">Nithin Kamath</h3>
@@ -36,7 +32,7 @@ function Team() {
                 </div>
 
             </div>
-            <div className="row p-5 mb-5">
+            <div className="row p-5">
                 <div className="col team">
                     <img src="media/images/nithinKamath.jpg" style={{ width: "90%" }} className="rounded-circle " alt="" srcset="" />
                     <h3 className="mt-5">Nithin Kamath</h3>

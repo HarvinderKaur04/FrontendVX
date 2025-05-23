@@ -52,7 +52,6 @@ h1 {
 .list-style {
   list-style-type: none;
   line-height: 2rem;
-  font-weight: 500;
   font-size: 2rem;
 }
 
@@ -80,7 +79,7 @@ h1 {
 
 }
 
-.p {
+p{
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 15px;
@@ -112,4 +111,27 @@ h1 {
  
 }
 
+.para{
+  font-size: 14px;
+  opacity: 0.5;
+  margin-top: 10px;
+  line-height: 20px;
+  color: #9b9b9b;
+ 
+}
+.universe-img{
+ width:200px;
+ height: 55px;
+ 
+}
+.list-style1{
+  list-style-type: none;
+  line-height: 2rem;
+  display: flex;
+  
+}
+.list-item2{
+ margin-right: 20px;
+ font-size: 2rem;
 
+}

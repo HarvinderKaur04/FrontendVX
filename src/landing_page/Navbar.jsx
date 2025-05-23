@@ -3,8 +3,8 @@ function Navbar() {
     return (
         
             <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-                <div class="container pt-2 pb-4 ">
-                    <Link class="navbar-brand" to="/"><img src="media/images/logo2.jpeg" alt="Home" srcset="" style={{ width:"45%" }} /></Link>
+                <div class="container pt-2 pb-2 ">
+                    <Link class="navbar-brand" to="/"><img src="media/images/vx.png" alt="Home" srcset="" style={{ width:"20%" }} /></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

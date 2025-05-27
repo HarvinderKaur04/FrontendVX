@@ -1,11 +1,12 @@
-
+import Hero from "./Hero";
 
 function Signup() {
-    return ( <>
+    return (
+      <>
+        <Hero/>
+        </>
     
-    <h1>sign</h1>
-   
-     </> );
+  );
 }
 
 export default Signup;

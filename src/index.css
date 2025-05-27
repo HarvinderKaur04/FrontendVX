@@ -53,12 +53,15 @@ h1 {
   list-style-type: none;
   line-height: 2rem;
   font-size: 2rem;
+
 }
 
 .list-head {
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
+
+
 
 .footer-p {
   font-size: 1rem;
@@ -79,7 +82,7 @@ h1 {
 
 }
 
-p{
+p {
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 15px;
@@ -96,7 +99,7 @@ p{
 }
 
 .accordion-button {
- 
+
   background-color: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -108,30 +111,109 @@ p{
   box-shadow: none !important;
   background-color: none !important;
 
- 
+
 }
 
-.para{
+.para {
   font-size: 14px;
   opacity: 0.5;
   margin-top: 10px;
   line-height: 20px;
   color: #9b9b9b;
- 
+
 }
-.universe-img{
- width:200px;
- height: 55px;
- 
+
+.universe-img {
+  width: 200px;
+  height: 55px;
+
 }
-.list-style1{
+
+.list-style1 {
   list-style-type: none;
   line-height: 2rem;
   display: flex;
+
+}
+
+.list-item2 {
+  margin-right: 20px;
+  font-size: 2rem;
+
+}
+
+.tabs {
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #e1e1e1;
+  border-radius: 3px 3px 0 0;
+}
+
+.tabs a {
+  min-width: 50px;
+  font-size: 1rem;
+  padding: 6px !important;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-direction: column;
+
+}
+
+.sel {
+  color: #666;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #387ed1 !important;
+}
+
+.section {
+  overflow: hidden;
+  clear: both;
+  border-radius: 3px;
+}
+
+.table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+}
+
+/* Support Page */
+#supportHero {
+  background: #387ed1;
+  color: #fff;
+  padding-top: 10px;
+
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#supportWrapper a {
+  font-size: 1.5rem;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+  margin-bottom: 15px;
+  margin-right: 20px;
   
 }
-.list-item2{
- margin-right: 20px;
- font-size: 2rem;
 
+#supportWrapper p {
+  font-size: 1rem;
+
+}
+
+#supportWrapper input {
+  width: 95%;
+  height: 80px;
+  border-radius: 0%;
 }

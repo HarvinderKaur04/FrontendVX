@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Universe() {
     return (
         <div className="container p-5 mb-5 mt-5">
@@ -60,7 +61,8 @@ function Universe() {
 
             </div>
             <div className="text-center">
-           <button className="btn btn-primary p-2 col-4 mx-auto fs-5">Sign up for free</button>
+            <Link className="nav-link active" aria-current="page" to="/signup">
+           <button className="btn btn-primary p-2 col-4 mx-auto fs-5">Sign up for free</button></Link>
            </div>
         </div>
     );

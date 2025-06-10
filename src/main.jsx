@@ -11,6 +11,10 @@ import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
 import NotFound from './landing_page/NotFound';
 import './index.css'
+import Investment from './landing_page/investment/Investment';
+import Kite from './landing_page/kite/Kite';
+import Login from './landing_page/kiteLogin/Login';
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -23,9 +27,13 @@ createRoot(document.getElementById('root')).render(
       <Route path='/pricing' element={<PricingPage />} />
       <Route path='/product' element={<ProductPage />} />
       <Route path='/support' element={<SupportPage />} />
+      <Route path='/investment' element={<Investment/>}/>
+      <Route path='/kite' element={<Kite/>}/>
+     
        <Route path='*' element={<NotFound/>} />
     </Routes>
     <Footer/>
+      
   </BrowserRouter>
 
 

@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 function Hero() {
     return (
         <div className="container p-5 mb-5 ">
@@ -8,8 +8,8 @@ function Hero() {
                 <p className="fs-4 mt-5 mb-5">
                     Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
                 </p>
-
-                <button className="btn btn-primary p-2 col-4 mx-auto fs-5">Sign up for free</button>
+                 <Link className="nav-link active" aria-current="page" to="/signup"> <button className="btn btn-primary p-2 col-4 mx-auto fs-5">Sign up for free</button></Link>
+               
             </div>
         </div>
     );

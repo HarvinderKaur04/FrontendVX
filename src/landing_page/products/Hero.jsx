@@ -6,7 +6,7 @@ function Hero() {
                 <p className="fs-4 mt-2 text-muted">
                   Sleek, modern, and intuitive trading platforms  
                 </p >
-                <p className="mt-1">Check out our <a href=""> investment offerings →</a></p>
+                <p className="mt-1">Check out our <a href="/investment"> investment offerings →</a></p>
               
             </div>
         </div>

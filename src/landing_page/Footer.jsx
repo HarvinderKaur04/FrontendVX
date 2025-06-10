@@ -6,7 +6,7 @@ function Footer() {
                 <div className="row mt-5">
                     <div className="col mx-5 text-secondary">
                         <a href="/"> <img src="media/images/vx.png" alt="" srcset="" style={{ width: "80%" }} /></a>
-                        <p className="mt-4 fs-5">© 2010 - 2025, VyaparaX Broking Ltd.<br></br>
+                        <p className="mt-4 fs-5">© 2025, VyaparaX Broking Ltd.<br></br>
                             All rights reserved.</p>
                         <ul className="list-style1">
                             <li className="list-item2">
@@ -69,7 +69,7 @@ function Footer() {
                             <li className="list-head">Support</li>
                             <li><a href="" >Support portal</a></li>
                             <li><a href="">Contact us</a></li>
-                            <li><a href="">Z-Connect blog</a></li>
+                            <li><a href="">VX-Connect blog</a></li>
                             <li><a href="">List of charges</a></li>
                             <li><a href="">Downloads & resources</a></li>
                             <li><a href="">Videos</a></li>
@@ -82,7 +82,7 @@ function Footer() {
                     <div className="col mx-5 text-secondary">
                         <ul class="list-style">
                             <li className="list-head">Account</li>
-                            <li><a href="">Open an account</a></li>
+                            <li><a href="/signup">Open an account</a></li>
                             <li><a href="">liFund transfer</a></li>
 
                         </ul>

@@ -1,45 +1,72 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import ChildPage from './ChildPage';
+import { useState } from 'react';
+
+
 function Navbar() {
+    const [showItem, setShowItem] = useState(false);
     return (
-        
-            <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary justify-content-end border-bottom">
-                <div class="container pt-2 pb-2 ">
-                    <Link class="navbar-brand" to="/"><img src="media/images/vx.png" alt="Home" srcset="" style={{ width:"20%" }} /></Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class="d-flex" >
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-                            <li class="nav-item ">
-                                <Link class="nav-link active" aria-current="page" to="/signup">Signup</Link>
+
+        <nav className="navbar navbar-expand-lg sticky-top bg-body-tertiary justify-content-end border-bottom">
+            <div className="container pt-2 pb-2 ">
+                <Link className="navbar-brand" to="/"><img src="media/images/vx.png" alt="Home" style={{ width: "30%" }} /></Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form className="d-flex" >
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li className="nav-item ">
+                                <Link className="nav-link " aria-current="page" to="/signup">Signup</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/about">About</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link  " to="/about">About</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/product">Product</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link " to="/product">Product</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/pricing">Pricing</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link " to="/pricing">Pricing</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/support">Support</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link " to="/support">Support</Link>
                             </li>
-                               <li class="nav-item me-0">
-                                <Link class="nav-link active" to="#"><i class="fa-solid fa-bars "></i></Link>
+                               <li className="nav-item position-relative">
+                                <button
+                                    type="button"
+                                    className="btn"
+                                    onClick={() => setShowItem(!showItem)}
+                                >
+                                    <i className="fa-solid fa-bars"></i>
+                                </button>
+                                {showItem && <Item />}
                             </li>
+
+
+
+
 
 
                         </ul>
-                        </form>
+                    </form>
 
-                    </div>
                 </div>
-            </nav>
+            </div>
+        </nav >
 
-        
+
     );
 }
 
 export default Navbar;
+
+function Item() {
+    return (
+        <div
+            className="position-absolute Left-100 end-0 mt-3 p-2 bg-white shadow rounded border"
+            style={{ zIndex: 999, width: '1000px', height:'500px' }}
+        >
+            <ChildPage />
+        </div>
+    );
+}

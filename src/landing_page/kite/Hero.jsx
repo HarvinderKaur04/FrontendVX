@@ -1,5 +1,6 @@
 function Hero() {
-    return (<>
+  
+     return (<>
         <div className="container p-2 mb-5 mt-5">
             <div className="row ">
                 <div className="col-6 p-5 mb-5 mt-5">
@@ -10,8 +11,8 @@ function Hero() {
                     
                     </p>
                     <div className="mt-5 mb-5">
-                    <a href="/kite">
-                    <button className="btn btn-primary">Login to Kite</button></a>
+                        
+                       <button className="btn btn-primary">Login to Kite</button>
                     <a href="#" style={{ marginLeft: "30px" }}>Try demo<i class="fa-solid fa-arrow-right"></i></a>
                        
                     </div>
@@ -26,7 +27,7 @@ function Hero() {
                 </div>
             </div>
         </div>
-
+       
     </>);
 }
 

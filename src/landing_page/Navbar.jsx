@@ -36,6 +36,7 @@ function Navbar() {
                                     type="button"
                                     className="btn"
                                     onClick={() => setShowItem(!showItem)}
+                               
                                 >
                                     <i className="fa-solid fa-bars"></i>
                                 </button>

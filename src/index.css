@@ -91,6 +91,11 @@ h1 {
   align-items: center;
 
 }
+.nav-item button{
+ background-color:transparent !important;
+ border: none !important;
+
+}
 
 
 

@@ -2,10 +2,10 @@ function ChildPage() {
   return (
     <div className="container mt-5 mb-5">
       <div className="row text-center">
-        <div className="col-3">
+        <div className="col-3"><a href="/kite">
           <img src="\media\images\kite-logo.svg" alt="Kite" />
           <h4>Kite</h4>
-          <p>Trading Plateform</p>
+          <p>Trading Plateform</p></a>
         </div>
         <div className="col-3">
           <img src="\media\images\console.svg" alt="Kite" />

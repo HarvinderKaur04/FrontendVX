@@ -13,7 +13,11 @@ import NotFound from './landing_page/NotFound';
 import './index.css'
 import Investment from './landing_page/investment/Investment';
 import Kite from './landing_page/kite/Kite';
-import Login from './landing_page/kiteLogin/Login';
+
+
+
+
+
 
 
 
@@ -29,11 +33,14 @@ createRoot(document.getElementById('root')).render(
       <Route path='/support' element={<SupportPage />} />
       <Route path='/investment' element={<Investment/>}/>
       <Route path='/kite' element={<Kite/>}/>
+      <Route path='*' element={<NotFound/>} />         
+    
+
      
-       <Route path='*' element={<NotFound/>} />
+   
     </Routes>
     <Footer/>
-      
+
   </BrowserRouter>
 
 

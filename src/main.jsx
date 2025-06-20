@@ -12,7 +12,9 @@ import NotFound from './landing_page/NotFound';
 import './index.css'
 import Investment from './landing_page/investment/Investment';
 import Kite from './landing_page/kite/Kite';
-import Signpage from './landing_page/signpage/Signpage';
+import Signpage from './landing_page/signpage/signpage';
+
+
 
 
 
@@ -26,7 +28,7 @@ createRoot(document.getElementById('root')).render(
   <Navbar/>
     <Routes>
       <Route path='/' element={<HomePage />}/>
-      <Route path='/signup' element={<Signpage />}/>
+      <Route path='/signup' element={<Signpage/>}/>
       <Route path='/about' element={<AboutPage />}/>
       <Route path='/pricing' element={<PricingPage />} />
       <Route path='/product' element={<ProductPage />} />

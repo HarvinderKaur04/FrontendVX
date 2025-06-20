@@ -12,7 +12,7 @@ import NotFound from './landing_page/NotFound';
 import './index.css'
 import Investment from './landing_page/investment/Investment';
 import Kite from './landing_page/kite/Kite';
-import Signpage from './landing_page/signpage/signpage';
+import Signpage from './landing_page/signpage/Signpage';
 
 
 

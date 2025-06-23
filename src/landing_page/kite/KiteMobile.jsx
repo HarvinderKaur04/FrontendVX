@@ -11,7 +11,7 @@ function KiteMobile() {
                     </p>
                   
                     <div className="mt-4">
-                        <img src="media/images/googlePlayBadge.svg" alt="applestore" href="" /> <img src="media/images/appstoreBadge.svg" alt="googlestore" href="" style={{ marginLeft: "20px" }} />
+                        <img src="media/images/googlePlayBadge.svg" alt="applestore" href="#" /> <img src="media/images/appstoreBadge.svg" alt="googlestore" href="" style={{ marginLeft: "20px" }} />
                     </div>
 
                 </div>
